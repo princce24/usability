@@ -162,13 +162,29 @@ ul {
 .feature-card p {
   text-align: center;
 }
-/* big feature */
-.feature-img img {
+.features-area{
+  background-image: url(assets/asset\ 34.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* big feature section */
+
+.container{
+  overflow: hidden;
+}
+.big-feature{
+  gap: 30px;
+   
+}
+.container{
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: var(--padding-inline-section);
+}
+.big-feature-container img{
   width: 100%;
 }
-.feature-desc {
-  flex-direction: column;
-  align-items: start;
-  justify-content: center;
-  gap: 10px;
+.big-feature-container img1{
+  width: 100%;
+
 }
